@@ -35,10 +35,10 @@ c. Описасние товара
 1. Открыть Домашнюю работу из урока 1
 2. Создать файл стилей style.css
 3. Подключить ко всем страницам
-4. Задать стиль
-a {
-text-decoration: none;
-}
+4.a {
+  text-decoration: none;
+  } Задать стиль
+  
 5. Проверить работу стилей на всех страницах
 6. Разделить экран на 2 части, сделать так чтобы файл стилей располагался
 справа, а все html файлы были слева
@@ -76,33 +76,35 @@ text-decoration: none;
   </head>
 
   <body>
-    <a href="/index.html">Главная</a>
-    <a href="/catalog/catalog.html">Каталог</a>
-    <a href="/info.html">Контакты</a>
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html">Главная</a>
+      <a class="navigation__link" href="/catalog/catalog.html">Каталог</a>
+      <a class="navigation__link" href="/info.html">Контакты</a>
+    </nav>
 
-    <h1>Главная страница</h1>
+    <h1 class="title">Главная страница</h1>
 
-    <p>
+    <p class="text">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut error
       possimus pariatur labore distinctio doloribus natus incidunt illum ipsum.
       Ratione officiis molestiae sunt aliquid porro veniam, assumenda quis
       consectetur cupiditate?
     </p>
 
-    <h2>Добро пожаловать на сайт</h2>
-    <p>
+    <h2 class="title2">Добро пожаловать на сайт</h2>
+    <p class="text">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum unde fugiat
       consequatur aut, beatae expedita error, nisi minus reiciendis aperiam
       sunt? Quae iure ad quisquam accusamus eum nostrum ullam adipisci!
     </p>
 
-    <p>
+    <p class="text">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, nobis
       officiis sed quam laborum ut eius minima quasi totam expedita corporis
       sunt, esse qui aliquam! Assumenda quo magni aspernatur magnam!
     </p>
 
-    <p>
+    <p class="text">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia delectus
       molestiae dolorum perferendis non ab doloribus assumenda eveniet, nam
       deserunt libero, amet est optio fuga esse cupiditate dignissimos, voluptas
