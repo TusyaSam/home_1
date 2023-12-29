@@ -67,48 +67,122 @@ c. Описасние товара
     d. font-size: 36px;
     e. line-height: 80px;
   -->
+  <!-- 
+    Домашнее задание_3
+1.Открыть макет сайта
+https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-
+Digital-Marketing-Landing-Page?node-id=23%3A2
+2.необходимо представить разбиение часть на блоки (Для тех
+учеников которые умеют работать с фигма разбить
+представленную на скриншоте часть на блоки, как в семинаре)
+3.Создать новую папку
+4.Создать файл index.html
+5.В соответствии с макетом необходимо:
+6.Добавить все блоки по сайту
+7.Добавить все наполнение блоков (html контент)
+8. Все заголовки, параграфы кнопки и изображения
+Домашнее задание
+9. Создать файл стилей style.css.
+10. Подключить стили к index.html
+11. Добавить стилистику и позиционирование для
+верхнего блока сайта
+12. Для всех html элементов задать стили в
+соответствии с макетом(расставить все элементы
+в соответствии с макетом). 
+ -->
 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
-    <nav class="navigation">
-      <a class="navigation__link" href="/index.html">Главная</a>
-      <a class="navigation__link" href="/catalog/catalog.html">Каталог</a>
-      <a class="navigation__link" href="/info.html">Контакты</a>
-    </nav>
+    <header class="center">
+      <div class="logo__box">
+        <a href="#">
+          <img class="head__logo" src="img\logo.png" alt="header image" />
+        </a>
+      </div>
+      <div class="menu__box">
+        <a class="menu__link" href="#">
+          <p>Home</p>
+        </a>
+        <a class="menu__link" href="#">
+          <p>About Us</p>
+        </a>
+        <a class="menu__link" href="#">
+          <p>Services</p>
+        </a>
+        <a class="menu__link special__link" href="#">
+          <p>Features</p>
+          <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="#">
+            <path
+              d="M1 1L4 4L7 1"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <a class="menu__link" href="#">
+          <p>Team</p>
+        </a>
+        <a class="menu__link" href="#">
+          <p>Blog</p>
+        </a>
+        <a class="menu__link" href="#">
+          <p>Contact</p>
+        </a>
+      </div>
+    </header>
 
-    <h1 class="title">Главная страница</h1>
+    <main class="top__content__area center">
+      <div class="text__box">
+        <div class="text__box__content">
+          <h1 class="text__box__title">
+            SEO & Digital Marketing For Your Website.
+          </h1>
+          <p class="text__box__paragraph">
+            Provide all kind of seo services and help to improve seo ranking.
+            Globally incubate standards.
+          </p>
+        </div>
+        <div class="text__box__buttons">
+          <button class="start__button">Start Now</button>
+          <button class="watch__button">Watch Video</button>
+        </div>
+      </div>
+      <div class="image__box">
+        <img class="main__image" src="img\pngfind 1.png" alt="main image" />
+      </div>
+    </main>
 
-    <p class="text">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut error
-      possimus pariatur labore distinctio doloribus natus incidunt illum ipsum.
-      Ratione officiis molestiae sunt aliquid porro veniam, assumenda quis
-      consectetur cupiditate?
-    </p>
+    <footer class="center">
+      <div class="foot__logos__box">
+        <a href="#">
+          <img class="foot__logo1" src="img\1.png" alt="logo1" />
+        </a>
+        <a href="#">
+          <img class="foot__logo2" src="img\2.png" alt="logo2" />
+        </a>
+        <a href="#">
+          <img class="foot__logo3" src="img\3.png" alt="logo3" />
+        </a>
+        <a href="#">
+          <img class="foot__logo4" src="img\4.png" alt="logo4" />
+        </a>
+        <a href="#">
+          <img class="foot__logo5" src="img\5.png" alt="logo5" />
+        </a>
+        <a href="#">
+          <img class="foot__logo2" src="img\6 (1).png" alt="logo6" />
+        </a>
+      </div>
+    </footer>
 
-    <h2 class="title2">Добро пожаловать на сайт</h2>
-    <p class="text">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum unde fugiat
-      consequatur aut, beatae expedita error, nisi minus reiciendis aperiam
-      sunt? Quae iure ad quisquam accusamus eum nostrum ullam adipisci!
-    </p>
-
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, nobis
-      officiis sed quam laborum ut eius minima quasi totam expedita corporis
-      sunt, esse qui aliquam! Assumenda quo magni aspernatur magnam!
-    </p>
-
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia delectus
-      molestiae dolorum perferendis non ab doloribus assumenda eveniet, nam
-      deserunt libero, amet est optio fuga esse cupiditate dignissimos, voluptas
-      quaerat!
-    </p>
+    <main class="bottom__content__area center"></main>
   </body>
 </html>
